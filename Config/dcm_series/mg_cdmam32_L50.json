@@ -1,0 +1,31 @@
+{
+    "actions": {
+        "acqdatetime": {
+            "filters": {}, 
+            "params": {}
+        }, 
+        "header_series": {
+            "filters": {}, 
+            "params": {}
+        }, 
+        "qc_series": {
+            "filters": {}, 
+            "params": {
+                "modeCDCOM": "False", 
+                "parsCDCOM": "", 
+                "phantomversion": "3.2"
+            }
+        }
+    }, 
+    "comments": {
+        "author": "Arnold Schilham, UMCU", 
+        "creator": "generate_config_json.py version 20180219", 
+        "description": "MG/CDMAM for Philips MicrodoseL50", 
+        "params": {
+            "modeCDCOM": "use precompiled cdcom.exe for detection or use python implementation", 
+            "parsCDCOM": "use extra flags for cdcom.exe, e.g use \"c;high\" to pass \"c\" and \"high\"", 
+            "phantomversion": "either 3.2 or 3.4"
+        }, 
+        "version": "20170802"
+    }
+}

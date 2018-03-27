@@ -1,0 +1,35 @@
+{
+    "comments": {
+        "author": "Arnold Schilham, UMCU", 
+        "creator": "generate_config_json.py version 20180219", 
+        "description": "MG/CDMAM for Philips MicrodoseL50"
+    }, 
+    "results": {
+        "AcquisitionDateTime": {
+            "constraint_period": 14, 
+            "description": "date and time of acquisition", 
+            "display_level": 2, 
+            "display_name": "DateTime", 
+            "units": ""
+        }, 
+        "EnergyComponent_ALsuproc": {
+            "constraint_equals": "SUM FOR PROCESSING", 
+            "description": "displayed data", 
+            "display_level": 2, 
+            "display_name": "energy component", 
+            "units": ""
+        }, 
+        "iqf_ALsuproc": {
+            "constraint_minlowhighmax": [
+                1.0, 
+                1.0, 
+                1.25, 
+                1.5
+            ], 
+            "description": "image quality factor", 
+            "display_level": 2, 
+            "display_name": "iqf", 
+            "units": ""
+        }
+    }
+}

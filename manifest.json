@@ -1,0 +1,18 @@
+{
+    "info": {
+        "dbversion": "20180209",
+        "magic": "wad-qc-factory"
+    },
+    "module": {
+        "description": "MG CDMAM",
+        "executable": "CDMam_wadwrapper.py",
+        "name": "MG_CDMAM",
+        "code": "python",
+        "dependencies": [
+            "numpy",
+            "pydicom",
+            "scipy",
+            "matplotlib"
+        ]
+    }
+}
